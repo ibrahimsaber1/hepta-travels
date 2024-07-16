@@ -21,7 +21,7 @@ font-family: "Poppins", sans-serif; */
     width: 100%;
     height: 105vh;
     background-color: gray;
-    background-image: url('./images/hero_1.jpg.webp');
+    background-image: url('./image/hero_1.jpg');
     background-size: cover;
     /*to have the full picture*/
     background-position: center center;
