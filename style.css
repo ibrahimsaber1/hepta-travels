@@ -285,8 +285,6 @@ font-family: "Poppins", sans-serif; */
     flex-direction: column;
     height: 160vh;
     padding: 2em;
-    background-color: #038181;
-
 }
 
 .sec3-H-text {
@@ -326,13 +324,12 @@ font-family: "Poppins", sans-serif; */
     align-items: center;
     justify-content: space-around;
     row-gap: 40px;
-    background-color: darkgreen;
 }
 
 .sec3-row-flaticon {
     width: 350px;
     height: 50em;
-    background-color: rgb(255, 238, 0);
+    padding: 25px 2%;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -351,11 +348,10 @@ font-family: "Poppins", sans-serif; */
 .sec3-row-flaticon p,
 h5 {
     display: flex;
-    padding: 2f5px;
     color: #414141;
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .img-fluid {
