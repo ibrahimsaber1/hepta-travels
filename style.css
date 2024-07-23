@@ -415,6 +415,7 @@ h5 {
 
 
 /* SECTION FIVE ---------*/
+
 .sectionfive{
     background-color: #65c0ba;
     display: flex; 
@@ -504,14 +505,14 @@ h5 {
     color: #6c757d
 }
 
-/* section sex  */
+/* section sex -------------- */
 
 .sectionsix{
     display: flex; 
     flex-direction: column; 
     width: 100%; 
     padding: 50px 10%; 
-
+    background-color: #fafafa;
     align-items:center ;
 }
 .sectionsix h2{
@@ -528,7 +529,6 @@ h5 {
     height: 450px;
     margin: 30px 0;
     padding: 30px 0;
-    /* background-color: rgb(0, 0, 0); */
     
 }
 .div-inside-section6{
@@ -564,28 +564,46 @@ h5 {
     color: #000000;
     font-size: large;
 }
+
+
+/* section seven 7777777777 */
+/* section seven 7777777777 */
+
+
 .sectionseven{
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     justify-content: center;
     width: 100%; 
-    padding: 50px 0; 
+    padding: 50px 15%; 
     text-align: center;
+}
+.sec7-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px 15%;
 }
 .sectionseven h2{
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 3.5vw;
     padding-top: 20px;
 }
+
+.sec7-cont p{
+    font-family: "Poppins", sans-serif;
+}
+
 
 .sectionseven-div2 {
     display: flex;
     flex-wrap: nowrap; 
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
     margin: 20px auto;
     padding: 20px 0;
+    background-color: #038181;
 }
 
 .sectionseven-div2 > div {
@@ -593,23 +611,15 @@ h5 {
     margin: 0 1%;
     text-align: center; 
 }
-.sectionseven-div2 > div:hover {
-    transform: scale(1.1);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 5%;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
+
 .div-inside-section7{
     width: 30%;
     margin-bottom: 20px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fcfcfc;
+    line-height: 1.5;
 }
-.div-inside-section7:hover{
-    transform: scale(1.1);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 5%;
-}
+
 .div-inside-section7 img{
     height: 100%;
     width: 100%;
@@ -629,7 +639,7 @@ h5 {
     color: #6c757d
 }
 
-
+/* ------------footer :) -------------*/
 
 footer {
     background-color: #000000;
