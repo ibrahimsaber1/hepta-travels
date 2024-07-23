@@ -186,6 +186,7 @@ font-family: "Poppins", sans-serif; */
 
 /*section 222222222-------------------------------------------------------------------------------------------*/
 .sec-two {
+    padding: 50px 15%;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -270,10 +271,11 @@ font-family: "Poppins", sans-serif; */
 
 /*section 33333333333-------------------------------------------------------------------------------------------*/
 .section-3 {
+    padding: 50px 15%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 180vh;
     padding: 2em;
     background-color: rgb(252, 251, 251);
 }
@@ -281,22 +283,28 @@ font-family: "Poppins", sans-serif; */
 .sec-3-container {
     display: flex;
     flex-direction: column;
+    height: 160vh;
     padding: 2em;
+    background-color: #038181;
+
 }
 
 .sec3-H-text {
+    padding: 20px 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
+    background-color: rgb(255, 255, 255);
+
 }
 
 
 .sec3-heading {
     color: #000000;
     font-family: "Abril Fatface", times, serif;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: lighter;
 }
 
@@ -310,18 +318,21 @@ font-family: "Poppins", sans-serif; */
 
 .sec3-rows {
     width: 100%;
-    height: 100%;
+    height: 150vh;
+    padding: 50px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    row-gap: 40px;
+    background-color: darkgreen;
 }
 
 .sec3-row-flaticon {
-    width: 400px;
+    width: 350px;
     height: 50em;
-    /* background-color: red; */
+    background-color: rgb(255, 238, 0);
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -340,7 +351,7 @@ font-family: "Poppins", sans-serif; */
 .sec3-row-flaticon p,
 h5 {
     display: flex;
-    padding: 3%;
+    padding: 2f5px;
     color: #414141;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
