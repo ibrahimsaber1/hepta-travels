@@ -372,91 +372,48 @@ h5 {
 }
 
 
-
-
-
-/*-----------------  */
-
-/* 
-.pos{
-    position: relative;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.space-above{
-    position: absolute;
-    width: 120%;
-    transform: rotate(-11deg);
-    height: 300px;
-    background-color: #701479;
-    left: -8%;
-    z-index: 120;
-
-}
-
-.positions {
-    position: absolute;
-    width: 120%;
-    transform: rotate(-11deg);
-    height: 300px;
-    background-color: #000;
-    left: -8%;
-    z-index: 100;
-
-}
-
-.positions {
-    position: absolute;
-    width: 120%;
-    height: 300px;
-    background-color: #129292
-    left: -8%;
-    z-index: 100;
-
-} */
-
-/*-----------------  */
+/*------section four---------  */
 
 .sectionfour{
     margin-top: 10%;
+    padding: 50px 15%;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 
 }
 
 .sectionfour-div{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     text-align: center;
-    padding: 0 10%;
+
 }
 
 .sectionfour-div h2 {
     color: #000000;
     font-family: "Abril Fatface", times, serif;
-    font-size: 4.5em;
+    font-size: 3.5em;
     font-weight: lighter;
 }
 
 .sectionfour-div p {
-    padding: 5px 15%;
+    padding: 15px 15%;
     color: #747373;
     font-family: "Poppins", sans-serif;
-    font-size: 17px;
-    gap: 5PX;
+    font-size: 15px;
+    gap: 15PX;
 }
 
 .sectionfour-img{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -476,8 +433,9 @@ h5 {
     flex-direction: column; 
     align-items: center; 
     justify-content: center;
-    width: 100%; 
-    padding: 50px 0; 
+    width: 100%;
+    height: 170vh;
+    padding: 50px 5px; 
     text-align: center;
 }
 .sectionfive h2{
