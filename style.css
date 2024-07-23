@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+
 /*   font-family: "Abril Fatface", times, serif;  
 font-family: "Poppins", sans-serif; */
 
@@ -642,7 +643,7 @@ h5 {
 
 footer {
     background-color: #1a1a1a;
-    height: 90vh;
+    height: 100vh;
     padding: 20px 15%;
     text-align: center;
 }
@@ -673,8 +674,12 @@ ul{
 }
 
 .lstfooter{
-    /* background-color: red; */
+    border-top: 1.5px white solid;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
 }
 .copyright {
     margin-top: 30px;
@@ -686,4 +691,24 @@ ul{
     background-color: #1a1a1a;
     padding: 4px 10px;
     border: 1px solid #1a1a1a;
+}
+
+.media-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.logo-2{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.logo-2:hover{
+cursor: pointer;
+    
 }
